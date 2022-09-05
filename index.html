@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Avalie a sua Mentoria</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <header>
+    <h1>avalie a sua mentoria</h1>
+    <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+    <img src="./Imagem/img1.svg" 
+    alt="Imagem de um balão vermelho com 3 estrelas marcadas de 5 estrelas"/>
+    <div class="form-title">
+      <h2>Informações pessoais</h2>
+    </div>
+
+  </header>
+  <main>
+    <form id="my-form">
+      <section>
+        <fieldset>
+
+          <div class="surname-box">
+            <div class="form-warpped">
+              <label for="form-name">Nome</label>
+              <input type="text" id="form-name"/>
+            </div>
+            <div class="form-warpped">
+              <label for="form-surName">Sobre nome</label>
+              <input type="text" id="form-surName"/>
+            </div>
+            
+          </div>
+
+          <div class="form-warpped">
+            <label for="form-email">Email<span>(digite um email válido)</span></label>
+            <input type="email" id="form-email"/>
+          </div>
+
+        </fieldset>
+      </section>
+
+      <section>
+        <fieldset>
+          <div class="legend-box">
+            <legend>Informações do mentor</legend>
+
+          </div>
+          <div class="form-warpped line">
+            <label for="form-name">Selecione quem foi o seu mentor</label>
+            <input type="text" id="form-name"/>
+          </div>
+          <div class="form-warpped">
+            <label for="form-textarea">Feedback sobre o mentor</label>
+            <textarea id="textarea"></textarea>
+          <div class="form-warpped" id="checkbox-mentor">
+            <input type="checkbox" id="form-checkbox"/>
+            <label for="form-checkbox">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</span></label>
+          </div>
+
+        </fieldset>
+      </section>
+
+      <section>
+        <fieldset>
+          <div class="legend-box">
+
+            <legend>Agendando próxima mentoria</legend>
+          </div>
+
+          <div class="dateAndTime line">
+            <div class="form-warpped">
+              <label for="form-date">Data</label>
+              <input type="date" id="form-date"/>
+            </div>
+            <div class="form-warpped" id="midle-time">
+              <label for="form-startTime">Das</label>
+              <input type="time" id="form-startTime"/>
+            </div>
+            <div class="form-warpped">
+              <label for="form-endTime">Até</label>
+              <input type="time" id="form-endTime"/>
+            </div>
+          </div>
+
+        </fieldset>
+      </section>
+      
+      <button type="submit" form="my-form">SALVAR</button>
+    </form>
+    
+    
+    
+  </main>
+  
+  <footer>
+  </footer>
+  
+</body>
+</html>
